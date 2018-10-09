@@ -102,10 +102,20 @@ main form input {
 }
 
 #features article {
+  color: purple;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 16px auto;
+  justify-content: center;
+  background-color: #C6C6DA;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 8px;
+}
+
+#features h3 {
+  margin: 32px;
+  text-align: center;
 }
 
 #features article * {
