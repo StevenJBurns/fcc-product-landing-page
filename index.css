@@ -18,7 +18,6 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: stretch;
   background-color: #400040;
   padding: 12px;
   position: fixed;
@@ -30,16 +29,18 @@ header img {
 }
 
 header h1 {
+  flex: 1 0 auto;
   text-align: left;
   justify-self: flex-start;
   color: goldenrod
 }
 
 header ul {
-  flex: 1 0 auto;
+  flex: auto;
   display: flex;
   flex-direction: row;
-  justify-items: flex-end;
+  justify-self: flex-end;
+  margin: 0 auto;
   color: goldenrod;
   list-style: none
 }
@@ -78,7 +79,8 @@ main hr {
 
 main form {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  margin: 16px auto
 }
 
 main form input {
@@ -97,6 +99,17 @@ main form input {
 
 #submit:hover {
   background-color: magenta
+}
+
+#features article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 16px auto;
+}
+
+#features article * {
+  margin: 8px;
 }
 
 #video {
