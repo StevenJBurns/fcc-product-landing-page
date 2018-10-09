@@ -110,11 +110,11 @@ main form input {
   background-color: #C6C6DA;
   border-radius: 8px;
   margin: 16px;
-  padding: 8px;
+  padding: 8px
 }
 
 #features h3 {
-  margin: 32px;
+  margin: 32px auto;
   text-align: center;
 }
 
@@ -124,6 +124,29 @@ main form input {
 
 #video {
   margin: 12px auto;
+}
+
+#stones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: flex;
+  margin: 24px auto;
+  width: 90%;
+  max-width: 720px;
+}
+
+#stones article {
+  color: purple;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #C6C6DA;
+  border-radius: 8px;
+  width: 256px;
+  margin: 16px;
+  padding: 8px
 }
 
 footer {
