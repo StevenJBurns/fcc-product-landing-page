@@ -3,9 +3,46 @@
   padding: 0
 }
 
+header {
+  background-color: #400040
+}
+
 main {
+  flex: 1 0 auto;
   display: flex;
   flex-direction: column
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #400040;
+  color: goldenrod;
+  padding: 24px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+footer li {
+  margin: 8px;
+}
+
+footer a:link,
+footer a:visited {
+  flex: 1 0 auto;
+  color: goldenrod;
+  transition: all 0.25s
+}
+
+footer a:hover,
+footer a:active {
+  color: gold
 }
 
 @media screen and (max-width: 360px) {
