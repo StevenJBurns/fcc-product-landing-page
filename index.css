@@ -130,10 +130,11 @@ main form input {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: flex;
+  flex-wrap: wrap;
   margin: 24px auto;
   width: 90%;
   max-width: 720px;
+  overflow: hidden;
 }
 
 #stones article {
@@ -147,7 +148,24 @@ main form input {
   border-radius: 8px;
   width: 256px;
   margin: 16px;
-  padding: 8px
+  padding: 12px
+}
+
+#stones p {
+  text-align: justify
+}
+
+#gauntlet {
+
+}
+
+#gauntlet p {
+  margin: 12px; 
+  max-width: 720px
+}
+
+#pricing {
+  max-width: 720px
 }
 
 footer {
