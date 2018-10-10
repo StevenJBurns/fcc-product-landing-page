@@ -85,7 +85,7 @@ main form {
 }
 
 main form input {
-  width: 256px;
+  width: 256px
 }
 
 #submit {
@@ -108,6 +108,7 @@ main form input {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  box-shadow: 2px 2px 2px #400040;
   background-color: #C6C6DA;
   border-radius: 8px;
   margin: 16px;
@@ -116,15 +117,15 @@ main form input {
 
 #features h3 {
   margin: 32px auto;
-  text-align: center;
+  text-align: center
 }
 
 #features article * {
-  margin: 8px;
+  margin: 8px
 }
 
 #video {
-  margin: 12px auto;
+  margin: 12px auto
 }
 
 #stones {
@@ -135,7 +136,7 @@ main form input {
   margin: 24px auto;
   width: 90%;
   max-width: 720px;
-  overflow: hidden;
+  overflow: hidden
 }
 
 #stones article {
@@ -146,7 +147,7 @@ main form input {
   align-items: center;
   justify-content: flex-start;
   background-color: #C6C6DA;
-  box-shadow: 2px 2px 8px #400040;
+  box-shadow: 2px 2px 2px #400040;
   border: 2px #AAAAAA solid;
   border-radius: 8px;
   width: 256px;
@@ -175,7 +176,8 @@ main form input {
   width: 320px;
   height: 240px;
   margin: 12px auto;
-  border: 2px #B000B0 solid;
+  border: 2px #400040 solid;
+  box-shadow: 2px 2px 2px #444444;
   border-radius: 8px;
   display: block;
   overflow: hidden
@@ -198,17 +200,17 @@ footer {
   flex-direction: column;
   background-color: #400040;
   color: goldenrod;
-  padding: 24px;
+  padding: 24px
 }
 
 footer ul {
   display: flex;
   flex-direction: row;
-  list-style: none;
+  list-style: none
 }
 
 footer li {
-  margin: 16px;
+  margin: 16px
 }
 
 footer a:link,
@@ -238,6 +240,6 @@ footer a:active {
 
   #video {
     width: 320px;
-    height: 240px;
+    height: 240px
   }
 }
