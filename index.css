@@ -113,17 +113,17 @@ main form input {
   box-shadow: 2px 2px 2px #400040;
   background-color: #C6C6DA;
   border-radius: 8px;
-  margin: 16px;
+  margin: 16px auto;
   padding: 8px
 }
 
-#features h3 {
-  margin: 32px auto;
+#features > h3 {
+  margin: 32px;
   text-align: center
 }
 
 #features article * {
-  margin: 8px
+  margin: 6px
 }
 
 #video {
@@ -201,7 +201,7 @@ main form input {
 }
 
 #pricing * {
-  margin: 8px
+  margin: 8px auto;
 }
 
 #pricing h2,
@@ -209,8 +209,18 @@ main form input {
   text-align: center
 }
 
+#pricing p {
+  width: 90%;
+  max-width: 600px;
+  text-align: justify
+}
+
+#pricing table {
+  margin: 0 auto
+}
+
 #pricing td {
-  width: 144px;
+  width: 160px;
   padding: 2px;
   text-align: center;
   background-color: #c6c6da
@@ -249,12 +259,19 @@ footer a:active {
 }
 
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 1.0em
+  header h1 {
+      font-size: 1.0em
   }
 
-  h4 {
-    font-size: 0.75em
+  #app-title {
+    width: 90%;
+    margin: 24px 8px;
+    text-align: center;
+    font-size: 1.75em
+  }
+
+  #features h4 {
+    font-size: 1em
   }
 
   header li {
@@ -264,5 +281,11 @@ footer a:active {
   #video {
     width: 320px;
     height: 240px
+  }
+}
+
+@media screen and (width: 320px) {
+  #features h4 {
+    font-size: 0.8em
   }
 }
