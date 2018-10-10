@@ -85,7 +85,9 @@ main form {
 }
 
 main form input {
-  width: 256px
+  width: 256px;
+  height: 24px;
+  font-size: 16px
 }
 
 #submit {
@@ -191,6 +193,17 @@ main form input {
 
 #pricing {
   max-width: 720px
+}
+
+#pricing h2 {
+  text-align: center
+}
+
+#pricing td {
+  width: 196px;
+  padding: 2px;
+  text-align: center;
+  background-color: #c6c6da
 }
 
 footer {
