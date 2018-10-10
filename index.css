@@ -129,6 +129,7 @@ main form input {
 #stones {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: flex;
   margin: 24px auto;
   width: 90%;
