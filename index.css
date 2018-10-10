@@ -19,20 +19,17 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   background-color: #400040;
-  padding: 12px;
   position: fixed;
   width: 100%
-}
-
-header img {
-
 }
 
 header h1 {
   flex: 1 0 auto;
   text-align: left;
   justify-self: flex-start;
+  margin: 16px;
   color: goldenrod
 }
 
@@ -40,8 +37,9 @@ header ul {
   flex: auto;
   display: flex;
   flex-direction: row;
-  justify-self: flex-end;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin: 12px auto;
   color: goldenrod;
   list-style: none
 }
@@ -68,7 +66,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 96px 0
+  padding: 120px 0 64px 0
 }
 
 main hr {
@@ -270,8 +268,14 @@ footer a:active {
 }
 
 @media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    justify-content: center
+  }
+
   header h1 {
-      font-size: 1.0em
+    font-size: 1.5em;
+    text-align: center
   }
 
   #app-title {
