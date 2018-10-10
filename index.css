@@ -221,9 +221,14 @@ main form input {
 
 #pricing td {
   width: 160px;
-  padding: 2px;
+  padding: 2px 6px;
   text-align: center;
   background-color: #c6c6da
+}
+
+#pricing tfoot td,
+#pricing thead td {
+  background-color: #a6a6ba
 }
 
 #img-avengers {
