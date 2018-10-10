@@ -192,15 +192,24 @@ main form input {
 }
 
 #pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 720px
 }
 
-#pricing h2 {
+#pricing * {
+  margin: 8px
+}
+
+#pricing h2,
+#pricing h4 {
   text-align: center
 }
 
 #pricing td {
-  width: 196px;
+  width: 144px;
   padding: 2px;
   text-align: center;
   background-color: #c6c6da
