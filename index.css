@@ -106,7 +106,7 @@ main form input {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #C6C6DA;
   border-radius: 8px;
   margin: 16px;
@@ -157,6 +157,19 @@ main form input {
 
 #gauntlet {
 
+}
+
+#gauntlet h2 {
+  text-align: center
+}
+
+#img-gauntlet {
+  width: 320px;
+  height: 240px;
+  margin: 12px auto;
+  border-radius: 8px;
+  display: block;
+  overflow: hidden
 }
 
 #gauntlet p {
