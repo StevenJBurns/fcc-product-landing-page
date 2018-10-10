@@ -226,6 +226,12 @@ main form input {
   background-color: #c6c6da
 }
 
+#img-avengers {
+  width: 180px;
+  height: 180px;
+  margin-top: 40px
+}
+
 footer {
   display: flex;
   align-items: center;
